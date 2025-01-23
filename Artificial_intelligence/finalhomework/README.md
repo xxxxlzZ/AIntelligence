@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ## Repository structure
 
-因为大文件无法上传，我会上传压缩包到仓库里，麻烦老师手动解压一下，对应文件夹下会有README提示
+因为大文件无法上传，我会上传压缩包到网盘里，麻烦老师手动解压一下，对应文件夹下会有README提示
 
 ```python
 |-- lab5data # 实验数据
