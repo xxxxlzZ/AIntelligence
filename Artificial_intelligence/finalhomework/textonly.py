@@ -18,7 +18,7 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-data_folder = 'lab5data/data/'
+data_folder = 'lab5data/lab5data/'
 train_file = 'lab5data/train.txt'
 
 train_data = pd.read_csv(train_file, sep=",", header=0, names=["guid", "label"])

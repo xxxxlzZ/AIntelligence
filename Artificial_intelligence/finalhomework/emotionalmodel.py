@@ -20,7 +20,7 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 # 如果能用GPU就用GPU，加速运行
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-data_folder = 'lab5data/data/'
+data_folder = 'lab5data/lab5data/'
 train_file = 'lab5data/train.txt'
 test_file = 'lab5data/test_without_label.txt'
 
